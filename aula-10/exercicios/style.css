@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    width: 60vw;
+    flex-direction: column-reverse;
+    border: 1px solid black;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    border-radius: 10px;
+    justify-content: flex-end;
+    height: 200px;
+}
+
+.item {
+    flex-basis: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
